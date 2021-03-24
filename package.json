@@ -2,7 +2,10 @@
   "name": "ari-client",
   "version": "2.2.0",
   "description": "JavaScript client for Asterisk REST Interface.",
-  "homepage": "https://github.com/asterisk/node-ari-client",
+  "contributors": [
+    "Seth Kester <sekest@bluegilltech.com>"
+  ],
+  "homepage": "https://https://github.com/sekest/node-ari-client",
   "keywords": [
     "Asterisk",
     "ARI"
@@ -15,20 +18,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/asterisk/node-ari-client"
+    "url": "git://https://github.com/sekest/node-ari-client"
   },
   "bugs": {
     "url": "https://issues.asterisk.org",
     "email": "asterisk-app-dev@lists.digium.com"
   },
-  "license": "Apache-2.0",
+  "license": "MIT",
   "author": "Samuel Fortier-Galarneau",
   "dependencies": {
     "backoff-func": "^0.1.2",
     "bluebird": "^3.5.2",
     "lodash": "^4.17.10",
     "request": "^2.34.0",
-    "swagger-client": "2.0.26",
+    "@bluegill/swagger-client": "2.0.26",
     "uuid": "^3.0.0",
     "ws": "^6.0.0"
   },
