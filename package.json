@@ -1,5 +1,5 @@
 {
-  "name": "ari-client",
+  "name": "@bluegill/ari-client",
   "version": "2.2.0",
   "description": "JavaScript client for Asterisk REST Interface.",
   "contributors": [
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sekest/node-ari-client"
+    "url": "git://github.com/sekest/node-ari-client.git"
   },
   "bugs": {
     "url": "https://issues.asterisk.org",
@@ -51,5 +51,10 @@
     "mustache": "^2.2.1",
     "nyc": "^15.0.0",
     "portfinder": "^1.0.6"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
